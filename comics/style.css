@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.container {
+    position: relative;
+    max-width: 50%; 
+    max-height: 10%;
+    margin: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border: 3px solid #cdf6f9;;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    z-index: 1;
+   
+}
+
+.container img {
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    align-self: center;
+    height: 100vh;
+
+}
+
+.start {
+    width: 100px !important;
+    height: 100px !important;
+    position: absolute;
+    top: 280px;
+    left: 280px;
+}
+
+
+.next-icon {
+    display: inline-block;
+    width: 80px !important;
+    height: 80px !important;
+    position: absolute;
+    bottom: 1.3px;
+    right: 1.3px;
+
+}
+
+
+.previous-icon {
+    display: inline-block;
+    width: 80px !important;
+    height: 80px !important;
+    position: absolute;
+    bottom: 1.3px;
+    left: 1.3px;
+
+}
+
+.next-icon:hover{
+    filter: grayscale(80%); /* Adding hover affect to change color of buttons when clicking */
+
+}
+
+.previous-icon:hover{
+    filter: grayscale(80%); /* Adding hover affect to change color of buttons when clicking */
+
+}
+.start:hover{
+    filter: grayscale(80%); /* Adding hover affect to change color of buttons when clicking */
+
+}
+
+.blue-button {
+    display: inline-block;
+    position: absolute;
+    width: 30% !important;
+    height: 35px !important;
+    bottom: 10px;
+    left: 60px;
+
+}
+
+.red-button {
+    display: inline-block;
+    position: absolute;
+    width: 30% !important;
+    height: 35px !important;
+    bottom: 170px;
+    right: 60px;
+}
+
+.blue-button:hover{
+    filter: grayscale(80%); /* Adding hover affect to change color of buttons when clicking */
+
+}
+
+
+.red-button:hover{
+    filter: grayscale(80%); /* Adding hover affect to change color of buttons when clicking */
+
+}
+
+
+.h1{
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    position: static;
+    top: 46%;
+    left: 46%;
+}

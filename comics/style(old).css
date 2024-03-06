@@ -1,0 +1,195 @@
+body {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: white; */
+
+    background-color: paleturquoise;
+}
+
+
+.container {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+    border: 3px solid black; 
+    background-color: white;
+
+    /* min-height: 100vh; */
+
+   /*  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    z-index: 1;
+    /* max-width: 70%; 
+    max-height: 50%; */
+   
+}
+
+
+
+.container img {
+    /* display: inline-block; */
+    /* align-items: center; */
+    /* position: absolute; */
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto; 
+    height: 100vh;
+
+}
+
+.start{
+    width: 100px !important;
+    height: 100px !important;
+    position: absolute;
+    top: 46%;
+    left: 46%;
+}
+
+
+.next-icon {
+    /* display: inline;
+    position: absolute; */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    /* max-width: 10%; 
+    max-width: 10%; */
+    /* border: none; 
+    cursor: pointer; */
+    /* z-index: 2; */
+    /* width: 15%; */
+
+    display: inline-block;
+    /* top: 100%;
+    left: 90%; */
+    width: 80px !important;
+    height: 80px !important;
+    position: absolute;
+
+    bottom: 1.3px;
+    right: 1.3px;
+
+}
+
+.next-icon:hover{
+    filter: grayscale(20%); /* Adding hover affect to change color of buttons when clicking */
+
+}
+
+
+img.panel-one {
+    /* display: inline-block;
+    position: absolute; */
+    /* align-items: left; */
+
+    max-width: 50%;
+    max-height: 50%;
+    align-self: center;
+
+}
+
+img.panel-two {
+    /* display: inline-block;
+    position: absolute; */
+    /* align-items: left; */
+   
+    max-width: 50%;
+    max-height: 50%;
+    align-self: center;
+}
+
+img.panel-three {
+    /* display: inline-block; */
+    /* position: absolute; */
+    /* align-items: left; */
+    max-width: 50%;
+    max-height: 50%;
+    align-self: flex-end;
+    flex-grow: 100;
+    flex-shrink: 0;
+    /* margin-top: 25px; */
+    
+}
+
+
+.blue-button {
+    display: inline-block;
+    position: absolute;
+    width: 40% !important;
+    height: 80px !important;
+    top: 100%;
+    left: 5%;
+
+}
+
+.red-button {
+    display: inline-block;
+    position: absolute;
+    width: 40% !important;
+    height: 80px !important;
+    top: 100%;
+    right: 5%;
+}
+
+
+.h1{
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    position: absolute;
+    top: 46%;
+    left: 46%;
+}
+
+
+
+/* img.img{
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    
+    
+} */
+/* .container a{
+    margin: 0 10px; 
+
+} */
+
+/* .container > a > .scene3 {
+    display: inline-block;
+    align-items: center;
+    position: absolute;
+    max-width: 50%;
+    max-height: 50%;
+    display: block;
+    align-items: center;
+    position: absolute;
+    margin: 100 auto; 
+    top: 40%;
+    left: 43%;
+} */
+
+
+
+/* .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+body {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: 20px;
+    background-color: #000000;
+} */
+
